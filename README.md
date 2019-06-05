@@ -7,7 +7,7 @@ Inspired by the early works of linguist Noam Chomsky, this project follows these
   2. Generate random sentences based on random sentence structures
   3. Resulting sentences have to be both grammatical AND meaningless.
 
-An alternative version of this project, in Ruby, is [here](github.com/guilhe0756/your-random-chomsky).
+An alternative version of this project, in Ruby, is [here](github.com/guilhe0756/random-chomsky-generator).
 
 ## Objective
 
@@ -15,6 +15,10 @@ To request data from an API and use the result to generate grammatical and meani
 
 ## Approach
 
+0. Decide on tech stack: JavaScript, with Jasmine (test), Istanbul (coverage), Eslint (linter). It will use wordpos (API) and will run on node.js
+1. Draft of tests and functions
+2. User stories and domain modelling
+3. 
 
 
 ## Tech stack
