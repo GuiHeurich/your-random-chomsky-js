@@ -1,0 +1,22 @@
+{
+  "name": "your-random-chomsky",
+  "version": "1.0.0",
+  "description": "JavaScript program that generates random sentences",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "nyc": "^14.1.1"
+  },
+  "scripts": {
+    "test": "nyc jasmine && node_modules/.bin/eslint src && node_modules/.bin/eslint spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/guilhe0756/your-random-chomsky-js"
+  },
+  "author": "Gui Heurich",
+  "license": "ISC"
+}
