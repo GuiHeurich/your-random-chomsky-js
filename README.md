@@ -1,4 +1,4 @@
-# WELCOME TO RANDOM CHOMSKY GENERATOR
+# WELCOME TO YOUR RANDOM CHOMSKY
 
 This project is the second iteration of a personal project that I have developed while studying to become a programmer at Makers Academy. It allows you to generate random sentence structures and also random sentences.
 
@@ -9,15 +9,70 @@ Inspired by the early works of linguist Noam Chomsky, this project follows these
 
 An alternative version of this project, in Ruby, is [here](https://github.com/guilhe0756/random-chomsky-generator).
 
-## Objective
+## How to use
 
-To request data from an API and use the result to generate grammatical and meaningless sentences.
+Before you start, please make sure you have installed the following:
+
+```
+npm install --save-dev jasmine
+npm install --save-dev nyc
+npm install --save-dev eslint
+npm install --save-dev express
+npm install --save-dev nightwatch
+npm install --save-dev wordpos
+```
+
+## Requirements
+
+- generates random sentences
+- generates random sentence structures
+- uses an API to retrieve parts of speech randomly
+- sentences are grammatical
+- sentences are meaningless
+
+## User stories
+
+```
+As a big fan of linguistics
+So that I can look at different sentences every day
+I would like to be able to generate random sentences
+
+As a big fan of linguistics
+So that I can look at different sentences every day
+I would like the structures of these random sentences to also be random
+
+As a big fan of linguistics
+So that my sentences sound correct
+I would like the sentences to be grammatical
+
+As a big fan of linguistics
+So that my sentences are puzzling
+I would like the sentences to be meaningless
+```
+
+## Sequence Diagram
+
+The diagram below shows the flow of calls between different objects of the application. It is a two dimensional diagram based on a Unified Modelling Language (UML) approach to software modelling. The vertical bars show the sequence of messages sent between objects (note the numbers in sequence) while the horizontal arrows show the object instances to which the messages are sent.
+
+![diagram](public/images/diagram.png)
+
+
+
 
 ## Approach
 
-0. Decide on tech stack: JavaScript, with Jasmine (test), Istanbul (coverage), Eslint (linter). It will use wordpos (API) and will run on node.js
-1. Draft of tests and functions
-2. User stories and domain modelling
+0. Decide on tech stack:
+  - Language: JavaScript
+  - Testing framework: Jasmine
+  - Testing coverage: Istanbul
+  - Web framework: Express
+  - Web framework testing: Nightwatch
+  - Web driver: geckodriver
+  - Linter: Eslint
+  - Parts of Speech API: [wordpos](https://www.npmjs.com/package/wordpos) (API)
+
+1. Requirements, user stories and domain modelling
+2. Draft of tests and functions
 3.
 
 

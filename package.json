@@ -4,15 +4,19 @@
   "description": "JavaScript program that generates random sentences",
   "main": "index.js",
   "dependencies": {
-    "jasmine": "^3.4.0"
-  },
-  "devDependencies": {
-    "eslint": "^5.16.0",
-    "nyc": "^14.1.1",
     "wordpos": "^1.2.0"
   },
+  "devDependencies": {
+    "chromedriver": "^74.0.0",
+    "eslint": "^5.16.0",
+    "express": "^4.17.1",
+    "jasmine": "^3.4.0",
+    "nightwatch": "^1.1.11",
+    "nyc": "^14.1.1"
+  },
   "scripts": {
-    "test": "nyc jasmine && node_modules/.bin/eslint src && node_modules/.bin/eslint spec"
+    "pretest": "node_modules/.bin/eslint src && node_modules/.bin/eslint spec",
+    "test": "nyc jasmine && nightwatch"
   },
   "repository": {
     "type": "git",
