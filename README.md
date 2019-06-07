@@ -71,14 +71,10 @@ The diagram below shows the flow of calls between different objects of the appli
   - Linter: Eslint
   - Parts of Speech API: [wordpos](https://www.npmjs.com/package/wordpos) (API)
 
-1. Requirements, user stories and domain modelling
+1. Requirements, user stories and diagram
 2. Draft of tests and functions
-3.
 
 
-## Tech stack
-
-JavaScript (with Jasmine for testing and Eslint for linting).
 
 ## Screenshots
 
