@@ -1,5 +1,7 @@
 # WELCOME TO YOUR RANDOM CHOMSKY
 
+[![CircleCI](https://circleci.com/gh/guilhe0756/your-random-chomsky-js.svg?style=svg)](https://circleci.com/gh/guilhe0756/your-random-chomsky-js)
+
 This project is the second iteration of a personal project that I have developed while studying to become a programmer at Makers Academy. It allows you to generate random sentence structures and also random sentences.
 
 Inspired by the early works of linguist Noam Chomsky, this project follows these requirements:
@@ -85,6 +87,7 @@ The diagram below shows the flow of calls between different objects of the appli
   - Web framework testing: Nightwatch
   - Web driver: geckodriver
   - Linter: Eslint
+  - Continuous Integration: Circle CI
   - Parts of Speech API: [wordpos](https://www.npmjs.com/package/wordpos) (API)
 
 1. Requirements, user stories and diagram
