@@ -15,8 +15,6 @@
     "nyc": "^14.1.1"
   },
   "scripts": {
-    "pretest": "node_modules/.bin/eslint src && node_modules/.bin/eslint spec",
-    "test": "nyc jasmine && nightwatch"
   },
   "repository": {
     "type": "git",

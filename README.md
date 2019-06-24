@@ -34,6 +34,22 @@ npm install --save-dev wordpos
 
 ```
 As a big fan of linguistics
+So that I can look at different parts of sentences every day
+I would like to be able to generate random nouns
+
+As a big fan of linguistics
+So that I can look at different sentences every day
+I would like to be able to generate random adjectives
+
+As a big fan of linguistics
+So that I can look at different sentences every day
+I would like to be able to generate random verbs
+
+As a big fan of linguistics
+So that I can look at different sentences every day
+I would like to be able to generate random adverbs
+
+As a big fan of linguistics
 So that I can look at different sentences every day
 I would like to be able to generate random sentences
 
