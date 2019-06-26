@@ -1,5 +1,5 @@
 {
-  "src_folders" : ["tests"],
+  "src_folders" : ["spec/features"],
 
   "webdriver" : {
     "start_process": true,
@@ -11,7 +11,8 @@
     "default" : {
       "desiredCapabilities": {
         "browserName": "chrome"
-      }
+      },
+      "launch_url": "localhost:3000"
     }
   }
 }
