@@ -4,6 +4,7 @@
   "description": "JavaScript program that generates random sentences",
   "main": "index.js",
   "dependencies": {
+    "istanbul": "^0.4.5",
     "wordpos": "^1.2.0"
   },
   "devDependencies": {
