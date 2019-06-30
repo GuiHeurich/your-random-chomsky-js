@@ -17,8 +17,7 @@
     "pug": "^2.0.4"
   },
   "scripts": {
-    "test": "nyc jasmine",
-    "posttest": "nightwatch"
+    "test": "nyc jasmine"
   },
   "repository": {
     "type": "git",
