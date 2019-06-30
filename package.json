@@ -18,7 +18,7 @@
   },
   "scripts": {
     "test": "nyc jasmine",
-    "posttest": "./node_modules/.bin/nightwatch"
+    "posttest": "nightwatch"
   },
   "repository": {
     "type": "git",
