@@ -27,6 +27,7 @@ jobs:
             - v1-dependencies-
 
       - run: npm install
+      - run: npm ci
 
       - save_cache:
           paths:
@@ -34,4 +35,5 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: npm start & ./node_modules/.bin/cypress run
+      - run: npm start & wait-on http:localhost:8080
+      - run: ./node_modules/.bin/cypress run
