@@ -4,17 +4,21 @@
   "description": "JavaScript program that generates random sentences",
   "main": "index.js",
   "dependencies": {
+    "istanbul": "^0.4.5",
     "wordpos": "^1.2.0"
   },
   "devDependencies": {
     "chromedriver": "^74.0.0",
+    "cypress": "^3.3.2",
     "eslint": "^5.16.0",
     "express": "^4.17.1",
     "jasmine": "^3.4.0",
-    "nightwatch": "^1.1.12",
-    "nyc": "^14.1.1"
+    "nyc": "^14.1.1",
+    "pug": "^2.0.4"
   },
   "scripts": {
+    "start": "node app.js",
+    "test": "./node_modules/.bin/cypress run"
   },
   "repository": {
     "type": "git",
