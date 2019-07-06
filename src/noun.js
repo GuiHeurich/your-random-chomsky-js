@@ -4,7 +4,10 @@ function Noun(){
 
 Noun.prototype = {
   generate: function (){
-    return 'random noun'
+    var wordPOS = require('wordpos')
+    var word = new wordPOS()
+    var promise = word.randNoun()
+    return promise
   }
 };
 
