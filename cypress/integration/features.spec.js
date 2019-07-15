@@ -11,14 +11,3 @@ describe("Home Page", function(){
       .contains('This is your random chomsky')
   })
 })
-
-describe("Second Page", function(){
-  it('renders a random sentence', function(){
-    cy.visit('/')
-    cy
-      .contains('Give me a random sentence').click()
-      .url().should('include', '/random')
-      .get('body')
-      .contains('Random Chomsky was successfully generated')
-  })
-})
