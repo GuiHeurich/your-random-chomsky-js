@@ -11,6 +11,5 @@ app.get('/', function (req, res) {
     res.render('index', { sentence: results })
   })
 })
-app.get('/random', (req, res) => res.render('random', { sentence: "hello" }))
 
 app.listen(port, () => console.log(`Example app listening on port ${port}`))

@@ -11,16 +11,7 @@ An alternative version of this project, in Ruby, is [here](https://github.com/gu
 
 ## How to use
 
-Before you start, please make sure you have installed the following:
-
-```
-npm install --save-dev jasmine
-npm install --save-dev nyc
-npm install --save-dev eslint
-npm install --save-dev express
-npm install --save-dev nightwatch
-npm install --save-dev wordpos
-```
+Before you start, please run ```npm install```. You can start the server by running ```npm start``` and then go to ```localhost:8080``` on your browser. 
 
 ## Requirements
 
