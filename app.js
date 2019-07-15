@@ -10,11 +10,12 @@ app.get('/', function (req, res) {
   var random_noun = new Noun();
   var random_adjective = new Adjective();
   random_noun.generate().then(function(noun){
-    var sentence = []
-    sentence.push(noun)
+    var sentence = {}
+    sentence["noun"]= noun
     random_adjective.generate().then(function(adjective){
-        sentence.push(adjective)
-        res.render('index', { sentence: sentence })
+        sentence["adjective"] = adjective
+        sentence_string = `${sentence["adjective"]} ${sentence["noun"]}`
+        res.render('index', { sentence: sentence_string })
       })
   })
 })
