@@ -11,7 +11,7 @@ An alternative version of this project, in Ruby, is [here](https://github.com/gu
 
 ## How to use
 
-Before you start, please run ```npm install```. You can start the server by running ```npm start``` and then go to ```localhost:8080``` on your browser. 
+Before you start, please run ```npm install```. You can start the server by running ```npm start``` and then go to ```localhost:8080``` on your browser.
 
 ## Requirements
 
@@ -70,10 +70,10 @@ The diagram below shows the flow of calls between different objects of the appli
 
 0. Decide on tech stack:
   - Language: JavaScript
-  - Testing framework: Jasmine
+  - Testing framework: Cypress
   - Testing coverage: Istanbul
   - Web framework: Express
-  - Web framework testing: Nightwatch
+  - Web framework testing: Cypress
   - Web driver: geckodriver
   - Linter: Eslint
   - Parts of Speech API: [wordpos](https://www.npmjs.com/package/wordpos) (API)
