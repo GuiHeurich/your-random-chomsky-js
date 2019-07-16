@@ -7,14 +7,13 @@ describe("Home Page", function(){
       .contains('This is your random chomsky')
   })
 
-  xit('has a button to reload the page', function(){
+  it('has a button to reload the page', function(){
     cy.visit('/')
     cy
-      .get('Give me another random sentence').click()
-      .wait()
+      .get('form')
+      .get('input').click()
+      .wait(1)
     cy
-      .get('body')
-      .should('be.visible')
-      .contains('This is your random chomsky')
+      .url().should('include', '?')
   })
 })
