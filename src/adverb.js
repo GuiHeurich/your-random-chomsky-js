@@ -1,14 +1,14 @@
-function Noun(){
+function Adverb(){
 
 }
 
-Noun.prototype = {
+Adverb.prototype = {
   generate: function (){
     var wordPOS = require('wordpos')
     var word = new wordPOS()
-    var promise = word.randNoun()
+    var promise = word.randAdverb()
     return promise
   }
 };
 
-module.exports = Noun;
+module.exports = Adverb;

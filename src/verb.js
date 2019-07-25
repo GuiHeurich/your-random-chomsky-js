@@ -1,14 +1,14 @@
-function Noun(){
+function Verb(){
 
 }
 
-Noun.prototype = {
+Verb.prototype = {
   generate: function (){
     var wordPOS = require('wordpos')
     var word = new wordPOS()
-    var promise = word.randNoun()
+    var promise = word.randVerb()
     return promise
   }
 };
 
-module.exports = Noun;
+module.exports = Verb;

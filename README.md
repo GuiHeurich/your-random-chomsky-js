@@ -4,6 +4,8 @@
 
 This project is the second iteration of a personal project that I have developed while studying to become a programmer at Makers Academy. It allows you to generate random sentence structures and also random sentences.
 
+You can visit the working version of this app [here](https://your-random-chomsky.herokuapp.com/)
+
 Inspired by the early works of linguist Noam Chomsky, this project follows these requirements:
   1. Generate random sentence structures
   2. Generate random sentences based on random sentence structures
@@ -13,16 +15,7 @@ An alternative version of this project, in Ruby, is [here](https://github.com/gu
 
 ## How to use
 
-Before you start, please make sure you have installed the following:
-
-```
-npm install --save-dev jasmine
-npm install --save-dev nyc
-npm install --save-dev eslint
-npm install --save-dev express
-npm install --save-dev nightwatch
-npm install --save-dev wordpos
-```
+Before you start, please run ```npm install```. You can start the server by running ```npm start``` and then go to ```localhost:8080``` on your browser.
 
 ## Requirements
 
@@ -38,22 +31,27 @@ npm install --save-dev wordpos
 As a big fan of linguistics
 So that I can look at different parts of sentences every day
 I would like to be able to generate random nouns
+:check:
 
 As a big fan of linguistics
 So that I can look at different sentences every day
 I would like to be able to generate random adjectives
+:check:
 
 As a big fan of linguistics
 So that I can look at different sentences every day
 I would like to be able to generate random verbs
+:check:
 
 As a big fan of linguistics
 So that I can look at different sentences every day
 I would like to be able to generate random adverbs
+:check:
 
 As a big fan of linguistics
 So that I can look at different sentences every day
 I would like to be able to generate random sentences
+:check:
 
 As a big fan of linguistics
 So that I can look at different sentences every day
@@ -81,10 +79,10 @@ The diagram below shows the flow of calls between different objects of the appli
 
 0. Decide on tech stack:
   - Language: JavaScript
-  - Testing framework: Jasmine
+  - Testing framework: Cypress
   - Testing coverage: Istanbul
   - Web framework: Express
-  - Web framework testing: Nightwatch
+  - Web framework testing: Cypress
   - Web driver: geckodriver
   - Linter: Eslint
   - Continuous Integration: Circle CI
