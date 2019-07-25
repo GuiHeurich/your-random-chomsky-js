@@ -2,6 +2,8 @@
 
 This project is the second iteration of a personal project that I have developed while studying to become a programmer at Makers Academy. It allows you to generate random sentence structures and also random sentences.
 
+You can visit the working version of this app [here](https://your-random-chomsky.herokuapp.com/)
+
 Inspired by the early works of linguist Noam Chomsky, this project follows these requirements:
   1. Generate random sentence structures
   2. Generate random sentences based on random sentence structures
