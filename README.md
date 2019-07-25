@@ -27,14 +27,17 @@ Before you start, please run ```npm install```. You can start the server by runn
 As a big fan of linguistics
 So that I can look at different parts of sentences every day
 I would like to be able to generate random nouns
+:check:
 
 As a big fan of linguistics
 So that I can look at different sentences every day
 I would like to be able to generate random adjectives
+:check:
 
 As a big fan of linguistics
 So that I can look at different sentences every day
 I would like to be able to generate random verbs
+:production:
 
 As a big fan of linguistics
 So that I can look at different sentences every day
