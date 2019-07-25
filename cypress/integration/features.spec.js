@@ -7,7 +7,7 @@ describe("Home Page", function(){
       .contains('This is your random chomsky')
   })
 
-  it('has a button to reload the page', function(){
+  it('has a button that reloads the page', function(){
     cy.visit('/')
     cy
       .get('form')
