@@ -42,10 +42,12 @@ I would like to be able to generate random verbs
 As a big fan of linguistics
 So that I can look at different sentences every day
 I would like to be able to generate random adverbs
+:check:
 
 As a big fan of linguistics
 So that I can look at different sentences every day
 I would like to be able to generate random sentences
+:production:
 
 As a big fan of linguistics
 So that I can look at different sentences every day

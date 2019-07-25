@@ -12,6 +12,7 @@ app.set('view engine', 'pug')
 app.get('/', function (req, res) {
   var random_noun = new Noun();
   var random_adjective = new Adjective();
+  var random_adjective_two = new Adjective();
   var random_verb = new Verb();
   var random_adverb = new Adverb();
 
@@ -24,8 +25,11 @@ app.get('/', function (req, res) {
           sentence["verb"] = verb
           random_adverb.generate().then(function(adverb) {
             sentence["adverb"] = adverb
-            sentence_string = `${sentence["adjective"]} ${sentence["noun"]} ${sentence["verb"]}s ${sentence["adverb"]}`
-            res.render('index', { sentence: sentence_string })
+            random_adjective_two.generate().then(function(adjective_two) {
+              sentence["adjective_two"] = adjective_two
+              sentence_string = `${sentence["adjective_two"]} ${sentence["adjective"]} ${sentence["noun"]} ${sentence["verb"]}s ${sentence["adverb"]}`
+              res.render('index', { sentence: sentence_string })
+            })
           })
         })
       })
